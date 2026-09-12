@@ -88,7 +88,8 @@ Berikut adalah dokumentasi pengujian fitur program FitLog menggunakan Pydroid 3:
 
 
 # 2. Pengujian Ubah Data (Update + Validasi Enter/Skip)
-<img width="719" height="944" alt="1789206475034_0" src="https://github.com/user-attachments/assets/badc2e48-8b8c-4493-8089-089baf3db650" />
+<img width="720" height="1172" alt="1789206475099_1" src="https://github.com/user-attachments/assets/ab091273-74f1-4de9-89be-8f220db98321" />
+
 
 *Gambar 2. Pengujian pencarian ID tidak ada dan pembaruan data dengan fitur skip ENTER.*
 
