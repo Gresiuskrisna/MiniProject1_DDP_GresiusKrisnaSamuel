@@ -12,8 +12,7 @@ FitLog adalah program yang dibuat untuk mencatat dan mengelola rencana latihan f
    Menambahkan data latihan baru ke dalam sistem. Fitur ini dilengkapi validasi agar ID tidak boleh kosong atau duplikat, serta memastikan input beban berbentuk angka.
 
 3. Ubah Data Latihan (Update)
-   Memperbarui data latihan berdasarkan ID. Pengguna dapat menekan tom<img width="4135" height="2338" alt="1789196847046_0" src="https://github.com/user-attachments/assets/f6a4a63b-60cb-4af0-a912-e0477079eac9" />
-bol ENTER jika tidak ingin mengubah nilai dari kolom tertentu.
+   Memperbarui data latihan berdasarkan ID. Pengguna dapat menekan tombol ENTER jika tidak ingin mengubah nilai dari kolom tertentu.
 
 4. Hapus Data Latihan (Delete)
    Menghapus data latihan tertentu dari sistem berdasarkan ID dengan konfirmasi terlebih dahulu.
@@ -40,6 +39,6 @@ data_latihan =
 
 
 
-Flowchart Program
+# Flowchart Program
 <img width="4135" height="2338" alt="1789196847046_0" src="https://github.com/user-attachments/assets/aac2c392-169b-4128-8a85-cc1d866b5190" />
 
