@@ -40,21 +40,6 @@ data_latihan =
 
 
 Flowchart Program
-
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'primaryColor': '#ffffff',
-    'primaryTextColor': '#000000',
-    'primaryBorderColor': '#000000',
-    'lineColor': '#000000',
-    'secondaryColor': '#ffffff',
-    'tertiaryColor': '#ffffff'
-  },
-  'flowchart': {
-    'curve': 'stepBefore'
-  }
-}}%%
 flowchart TD
     Start([Mulai]) --> InitData[Inisialisasi data_latihan]
     InitData --> Menu[Tampilkan Menu FitLog]
