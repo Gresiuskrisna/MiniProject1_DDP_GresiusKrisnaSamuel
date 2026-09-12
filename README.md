@@ -1,10 +1,9 @@
-# Dokumentasi Program FitLog
+Dokumentasi Program FitLog
 
 FitLog adalah program berbasis Command Line Interface (CLI) menggunakan bahasa pemrograman Python yang dibuat untuk mencatat dan mengelola rencana latihan fisik. Program ini menerapkan konsep CRUD (Create, Read, Update, Delete) sederhana dengan menggunakan struktur data list dan tuple.
 
----
 
-## Fitur Program
+Fitur Program
 
 1. Lihat Data Latihan (Read)
    Menampilkan seluruh daftar rencana latihan yang sudah tersimpan dalam tabel ringkas.
@@ -21,9 +20,8 @@ FitLog adalah program berbasis Command Line Interface (CLI) menggunakan bahasa p
 5. Keluar (Exit)
    Menghentikan jalannya program.
 
----
 
-## Struktur Data
+Struktur Data
 
 Data disimpan menggunakan variabel list bernama data_latihan. Setiap elemen di dalamnya berupa tuple yang memuat ID, nama latihan, kategori otot, target latihan, dan beban (kg).
 
@@ -31,24 +29,25 @@ Format tuple:
 (ID, Nama Latihan, Kategori Otot, Target, Beban)
 
 Contoh data awal:
-data_latihan = [
+data_latihan = 
+[
     ("EX01", "Bench Press", "Dada", "4 x 10", 40),
     ("EX02", "Barbell Squat", "Kaki", "3 x 12", 50),
     ("EX03", "Pull Up", "Punggung", "3 x 8", 0)
 ]
 
----
 
-## Petunjuk Penggunaan
+
+Petunjuk Penggunaan
 
 1. Pastikan perangkat sudah terinstal Python versi 3.
 2. Jalankan file utama program melalui terminal atau command prompt:
    python main.py
 3. Pilih nomor menu 1 sampai 5 sesuai kebutuhan aplikasi.
 
----
 
-## Flowchart Program
+
+Flowchart Program
 
 ```mermaid
 %%{init: {
