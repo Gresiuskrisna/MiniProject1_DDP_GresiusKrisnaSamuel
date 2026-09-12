@@ -115,5 +115,6 @@ Program menghentikan perulangan (loop) dan menampilkan pesan penutup saat penggu
 
 
 # Flowchart Program
-<img width="4135" height="3508" alt="1789204181138_0" src="https://github.com/user-attachments/assets/1c482cb7-5af4-4aa1-8865-e6aa25f11664" />
+<img width="3022" height="2301" alt="1789204389573_1" src="https://github.com/user-attachments/assets/8b7df663-10a5-48c8-8a35-bfe4bac075c0" />
+
 
