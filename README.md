@@ -78,6 +78,7 @@ Berikut adalah dokumentasi pengujian fitur program FitLog menggunakan Pydroid 3:
 
 *Gambar 1. Pengujian menampilkan data awal, penolakan ID duplikat, dan penolakan input beban non-angka.*
 
+
 *Menu 1 (Read): Menampilkan daftar 3 data awal yang tersimpan.*
 
 *Validasi ID Duplikat: Saat memasukkan ID `ex01`, sistem mendeteksi ID sudah digunakan dan meminta input ulang secara berulang.*
@@ -90,18 +91,21 @@ Berikut adalah dokumentasi pengujian fitur program FitLog menggunakan Pydroid 3:
 # 2. Pengujian Ubah Data (Update + Validasi Enter/Skip)
 <img width="720" height="1172" alt="1789206475099_1" src="https://github.com/user-attachments/assets/ab091273-74f1-4de9-89be-8f220db98321" />
 
-
 *Gambar 2. Pengujian pencarian ID tidak ada dan pembaruan data dengan fitur skip ENTER.*
+
 
 *Validasi ID Tidak Ditemukan: Memasukkan ID `ex05` menampilkan pesan `"ID tidak ditemukan."` dan kembali ke menu utama.*
 
-*Fitur Skip (ENTER):Memperbarui data `ex02` (Barbell Squat) dengan menekan ENTER pada baris Nama dan Kategori untuk mempertahankan nilai lama, serta hanya mengubah Target (`4 x 12`) dan Beban (`60` kg).*
+*Fitur Skip (ENTER): Memperbarui data `ex02` (Barbell Squat) dengan menekan ENTER pada baris Nama dan Kategori untuk mempertahankan nilai lama, serta hanya mengubah Target (`4 x 12`) dan Beban (`60` kg).*
 
 
 # 3. Pengujian Hapus Data & Keluar Program (Delete & Exit)
 <img width="719" height="1479" alt="1789206475165_2" src="https://github.com/user-attachments/assets/57fed22c-5de0-4881-a5ba-8f5e0a0b5a93" />
 
 *Gambar 3. Pengujian konfirmasi hapus data, verifikasi tabel akhir, dan keluar program.*
+
+
+*Validasi ID Tidak Ditemukan: Di menu Hapus Data, mencoba memasukkan ID yang tidak ada (`ex05`), sistem memberikan pesan "ID tidak ditemukan"*
 
 *Menu 4 (Delete): Menghapus data `ex03` (Pull Up) dengan konfirmasi `y`.*
 
