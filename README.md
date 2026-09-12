@@ -1,6 +1,6 @@
-Nama: Gresius Krisna Samuel
+*Nama: Gresius Krisna Samuel
 NIM: 2609116058
-Kelas: B
+Kelas: B*
 
 # Dokumentasi Program FitLog
 
