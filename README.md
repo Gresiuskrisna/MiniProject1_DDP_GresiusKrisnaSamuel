@@ -37,6 +37,32 @@ data_latihan =
     ("EX03", "Pull Up", "Punggung", "3 x 8", 0)
 ]
 
+# Penjelasan Sintaks dan Fungsi Utama
+
+# 1. len(data_latihan)
+Mengembalikan jumlah total elemen dalam variabel `data_latihan`. 
+Penggunaan: Digunakan pada kondisi `len(data_latihan) == 0` untuk mengecek apakah daftar latihan masih kosong sebelum menjalankan operasi Read, Update, atau Delete.
+
+# 2. .isdigit()
+Metode string untuk mengecek apakah seluruh karakter dalam suatu string berupa angka (0–9).
+Penggunaan: Digunakan pada validasi input beban (`beban.isdigit()`). Jika pengguna memasukkan huruf atau karakter non-angka, program akan menampilkan pesan error dan meminta input ulang.
+
+# 4. .lower() dan .upper()
+.lower(): Mengubah seluruh huruf menjadi kecil. Digunakan pada konfirmasi penghapusan `konfirmasi.lower() == 'y'` agar input seperti `'Y'` maupun `'y'` tetap terbaca valid.
+  
+.upper(): Mengubah seluruh huruf menjadi kapital. Digunakan pada input ID agar format ID konsisten (misalnya `ex01` otomatis diubah menjadi `EX01`).
+
+# 5. data_latihan.append(...)
+Menambahkan elemen baru dalam bentuk `tuple` ke baris paling akhir dari `list`.
+Penggunaan: Digunakan pada fitur Create setelah semua validasi ID dan beban terpenuhi.
+
+# 6. data_latihan.pop(i)
+Menghapus elemen pada indeks tertentu (i) dari list sekaligus mengembalikan nilai elemen yang dihapus.
+Penggunaan: Digunakan pada fitur Delete setelah ID ditemukan dan pengguna memberikan konfirmasi `y`.
+
+# 7. Perulangan while True dan break
+while True: Membikin program berjalan terus-menerus (sistem looping menu utama).
+break: Menghentikan perulangan dan keluar dari program saat pengguna memilih menu nomor 5.
 
 
 # Flowchart Program
