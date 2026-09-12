@@ -71,47 +71,43 @@ break: Menghentikan perulangan dan keluar dari program saat pengguna memilih men
 
 # Hasil Pengujian Program
 
-# 1. Menampilkan Daftar Latihan (Read)
+Berikut adalah dokumentasi pengujian fitur program FitLog menggunakan Pydroid 3:
 
-*Gambar 1. Menampilkan seluruh daftar latihan yang tersimpan.*
+# 1. Pengujian Lihat Data & Tambah Data (Create + Validasi Error)
+<img width="719" height="944" alt="1789206475034_0" src="https://github.com/user-attachments/assets/0f2411eb-0c43-49a8-8513-80b7eb3b303b" />
 
-Program menampilkan tabel data latihan awal yang mencakup ID, nama latihan, kategori otot, target latihan, dan beban (kg).
+*Gambar 1. Pengujian menampilkan data awal, penolakan ID duplikat, dan penolakan input beban non-angka.*
 
+*Menu 1 (Read): Menampilkan daftar 3 data awal yang tersimpan.*
 
-# 2. Menambahkan Data Latihan Baru (Create)
+*Validasi ID Duplikat: Saat memasukkan ID `ex01`, sistem mendeteksi ID sudah digunakan dan meminta input ulang secara berulang.*
 
-*Gambar 2. Pengujian penambahan data baru dan validasi input.*
+*Validasi Beban Non-Angka: Saat memasukkan beban berupa huruf (`dua puluh`), sistem menampilkan pesan error `"Harus pakai angka!"` dan mengulang permintaan input.*
 
-Pengujian mencakup:
-Validasi ID Duplikat: Menolak ID yang sudah terdaftar (misal `EX01`) dan meminta pengguna memasukkan ID lain (`EX04`).
-
-Validasi Beban: Menolak input teks/huruf saat meminta beban (`berat`) dan baru memproses data setelah dimasukkan angka (`60`).
-
-Pesan Sukses: Data `Deadlift` berhasil ditambahkan ke dalam daftar.
+*Sukses Create:Data latihan `EX04` (Deadlift) berhasil ditambahkan setelah input valid (`20` kg).*
 
 
+# 2. Pengujian Ubah Data (Update + Validasi Enter/Skip)
+<img width="719" height="944" alt="1789206475034_0" src="https://github.com/user-attachments/assets/badc2e48-8b8c-4493-8089-089baf3db650" />
 
-# 3. Memperbarui Data Latihan (Update)
+*Gambar 2. Pengujian pencarian ID tidak ada dan pembaruan data dengan fitur skip ENTER.*
 
-*Gambar 3. Pengujian pembaruan data dan pencarian ID.*
+*Validasi ID Tidak Ditemukan: Memasukkan ID `ex05` menampilkan pesan `"ID tidak ditemukan."` dan kembali ke menu utama.*
 
-Pengujian mencakup:
-Validasi ID Tidak Ditemukan: Menampilkan pesan error saat memasukkan ID yang tidak ada (`EX99`).
-Fitur Skip (ENTER): Memasukkan ID valid (`EX01`) lalu menekan ENTER untuk mempertahankan nilai lama pada kolom nama dan kategori, serta hanya memperbarui target dan beban.
-
-
-# 4. Menghapus Data Latihan (Delete)
-
-*Gambar 4. Pengujian penghapusan data dengan konfirmasi.*
-
-Program mencari ID `EX04`, meminta konfirmasi `(y/n)` sebelum menghapus, dan menghapus data dari sistem setelah dikonfirmasi `y`.
+*Fitur Skip (ENTER):Memperbarui data `ex02` (Barbell Squat) dengan menekan ENTER pada baris Nama dan Kategori untuk mempertahankan nilai lama, serta hanya mengubah Target (`4 x 12`) dan Beban (`60` kg).*
 
 
-# 5. Keluar Program (Exit)
+# 3. Pengujian Hapus Data & Keluar Program (Delete & Exit)
+<img width="719" height="1479" alt="1789206475165_2" src="https://github.com/user-attachments/assets/57fed22c-5de0-4881-a5ba-8f5e0a0b5a93" />
 
-*Gambar 5. Menampilkan pesan penutup saat memilih menu keluar.*
+*Gambar 3. Pengujian konfirmasi hapus data, verifikasi tabel akhir, dan keluar program.*
 
-Program menghentikan perulangan (loop) dan menampilkan pesan penutup saat pengguna memilih opsi `5`.
+*Menu 4 (Delete): Menghapus data `ex03` (Pull Up) dengan konfirmasi `y`.*
+
+*Verifikasi Data: Memilih Menu 1 untuk memastikan data `EX03` sudah terhapus dan urutan nomor/data diperbarui.*
+
+*Menu 5 (Exit): Program menghentikan perulangan dan menampilkan pesan `"Program selesai"` serta `[Program finished]`.*
+
 
 
 # Flowchart Program
