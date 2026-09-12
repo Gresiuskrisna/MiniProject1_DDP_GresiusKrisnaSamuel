@@ -1,3 +1,7 @@
+Nama: Gresius Krisna Samuel
+NIM: 2609116058
+Kelas: B
+
 # Dokumentasi Program FitLog
 
 FitLog adalah program yang dibuat untuk mencatat dan mengelola rencana latihan fisik. Program ini memakai konsep CRUD (Create, Read, Update, Delete) sederhana dengan menggunakan struktur data list dan tuple.
@@ -63,6 +67,51 @@ Penggunaan: Digunakan pada fitur Delete setelah ID ditemukan dan pengguna member
 # 7. Perulangan while True dan break
 while True: Membikin program berjalan terus-menerus (sistem looping menu utama).
 break: Menghentikan perulangan dan keluar dari program saat pengguna memilih menu nomor 5.
+
+
+# Hasil Pengujian Program
+
+# 1. Menampilkan Daftar Latihan (Read)
+
+*Gambar 1. Menampilkan seluruh daftar latihan yang tersimpan.*
+
+Program menampilkan tabel data latihan awal yang mencakup ID, nama latihan, kategori otot, target latihan, dan beban (kg).
+
+
+# 2. Menambahkan Data Latihan Baru (Create)
+
+*Gambar 2. Pengujian penambahan data baru dan validasi input.*
+
+Pengujian mencakup:
+Validasi ID Duplikat: Menolak ID yang sudah terdaftar (misal `EX01`) dan meminta pengguna memasukkan ID lain (`EX04`).
+
+Validasi Beban: Menolak input teks/huruf saat meminta beban (`berat`) dan baru memproses data setelah dimasukkan angka (`60`).
+
+Pesan Sukses: Data `Deadlift` berhasil ditambahkan ke dalam daftar.
+
+
+
+# 3. Memperbarui Data Latihan (Update)
+
+*Gambar 3. Pengujian pembaruan data dan pencarian ID.*
+
+Pengujian mencakup:
+Validasi ID Tidak Ditemukan: Menampilkan pesan error saat memasukkan ID yang tidak ada (`EX99`).
+Fitur Skip (ENTER): Memasukkan ID valid (`EX01`) lalu menekan ENTER untuk mempertahankan nilai lama pada kolom nama dan kategori, serta hanya memperbarui target dan beban.
+
+
+# 4. Menghapus Data Latihan (Delete)
+
+*Gambar 4. Pengujian penghapusan data dengan konfirmasi.*
+
+Program mencari ID `EX04`, meminta konfirmasi `(y/n)` sebelum menghapus, dan menghapus data dari sistem setelah dikonfirmasi `y`.
+
+
+# 5. Keluar Program (Exit)
+
+*Gambar 5. Menampilkan pesan penutup saat memilih menu keluar.*
+
+Program menghentikan perulangan (loop) dan menampilkan pesan penutup saat pengguna memilih opsi `5`.
 
 
 # Flowchart Program
