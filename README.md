@@ -40,6 +40,7 @@ data_latihan =
 
 
 Flowchart Program
+```mermaid
 %%{init: {
   'theme': 'base',
   'themeVariables': {
@@ -97,5 +98,4 @@ flowchart TD
     M4_CekY -- Ya --> M4_Pop[data_latihan.pop i]
     M4_Pop --> Menu
 
-    CondPilihan -- "5" --> M5_Exit[/Cetak Program Selesai/] --> End([Selesai])
-    
+    CondPilihan -- "5" --> M5_Exit[/Cetak Program Selesai/]
