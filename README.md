@@ -40,5 +40,6 @@ data_latihan =
 
 
 Flowchart Program
-<img width="600" height="339" alt="Copied_Item_1789195621318" src="https://github.com/user-attachments/assets/82784dfe-7813-4c44-a005-11d2696143e7" />
+<img width="600" height="430" alt="Copied_Item_1789195783706" src="https://github.com/user-attachments/assets/72c2aac2-f7f8-463f-8c8f-f6f35a9ab52f" />
+
 
